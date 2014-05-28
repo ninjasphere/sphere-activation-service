@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "debug": "~0.8.1",
+    "usvc": "git+ssh://git@github.com:ninjablocks/usvc.git",
     "uuid": "^1.4.1",
     "when": "~3.1.0"
   },
