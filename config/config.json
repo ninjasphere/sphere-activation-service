@@ -1,0 +1,16 @@
+{
+  "redis": {
+    "url": "tcp://127.0.0.1:6379/"
+  },
+  "mysql": {
+    "url": "mysql://ninja:ninja@localhost:3306/ninja"
+  },
+  "rpcService": {
+    "host": "127.0.0.1",
+    "port": 5100,
+    "signing": {
+      "sign": true,
+      "secret": "secret123"
+    }
+  }
+}
