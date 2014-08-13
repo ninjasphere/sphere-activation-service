@@ -12,6 +12,8 @@ var service = usvc.microService({
   redis: usvc.facets.db.redis(),
   mysql: usvc.facets.db.mysqlPool(),
 
+  idMysql: usvc.facets.db.mysqlPool(),
+
   // rpc interface
   rpcService: usvc.facets.rpc.jsonServer(['activationService']),
   activationService: require('./lib/rpc'),

@@ -5,6 +5,12 @@
   "mysql": {
     "url": "mysql://ninja:ninja@localhost:3306/ninja"
   },
+  "idMysql": {
+    "url": "mysql://douitsu:douitsu@localhost:3306/douitsu"
+  },
+  "apiJWT": {
+    "secret": "secret987"
+  },
   "rpcService": {
     "host": "127.0.0.1",
     "port": 5100,
