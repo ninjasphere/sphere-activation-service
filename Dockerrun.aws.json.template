@@ -5,7 +5,7 @@
     "Key": "dockercfg"
   },
   "Image": {
-    "Name": "docker-registry.ninjablocks.co/ninjablocks/sphere-activation-service:<TAG>",
+    "Name": "docker-registry.sphere.ninja/ninjablocks/sphere-activation-service:<TAG>",
     "Update": "true"
   },
   "Ports": [

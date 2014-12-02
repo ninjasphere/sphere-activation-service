@@ -1,0 +1,11 @@
+{
+  "redis": {},
+  "mysql": {},
+  "rpcService": {
+    "host": "127.0.0.1",
+    "port": 5100,
+    "signing": {
+      "sign": true
+    }
+  }
+}
