@@ -6,7 +6,7 @@
     "url": "mysql://ninja:ninja@mysql:3306/ninja"
   },
   "idMysql": {
-    "url": "mysql://douitsu:douitsu@rabbitmq:3306/douitsu"
+    "url": "mysql://douitsu:douitsu@mysql:3306/douitsu"
   },
   "apiJWT": {
     "secret": "secret987"
