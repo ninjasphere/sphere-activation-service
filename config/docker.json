@@ -1,0 +1,22 @@
+{
+  "redis": {
+    "url": "tcp://redis:6379/"
+  },
+  "mysql": {
+    "url": "mysql://ninja:ninja@mysql:3306/ninja"
+  },
+  "idMysql": {
+    "url": "mysql://douitsu:douitsu@rabbitmq:3306/douitsu"
+  },
+  "apiJWT": {
+    "secret": "secret987"
+  },
+  "rpcService": {
+    "host": "127.0.0.1",
+    "port": 5100,
+    "signing": {
+      "sign": true,
+      "secret": "secret123"
+    }
+  }
+}

@@ -17,4 +17,7 @@ var service = usvc.microService({
   // rpc interface
   rpcService: usvc.facets.rpc.jsonServer(['activationService']),
   activationService: require('./lib/rpc'),
+
+  // external rest api
+  frontendRest: usvc.facets.web.express(require('./lib/web'))
 }).run();
