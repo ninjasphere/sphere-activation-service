@@ -9,7 +9,7 @@ RUN npm install --production
 RUN npm rebuild
 
 # replace this with your application's default port
-EXPOSE 5500
+EXPOSE 5100
 
 # replace this with your startup command
 CMD [ "node", "service.js" ]
