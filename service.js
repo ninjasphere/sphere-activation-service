@@ -8,6 +8,10 @@ if (process.env.BUGSNAG_KEY) {
 var usvc = require('usvc');
 
 var service = usvc.microService({
+
+  // bus connections
+  amqp: usvc.facets.msg.amqp(),
+
   // database connections
   redis: usvc.facets.db.redis(),
   mysql: usvc.facets.db.mysqlPool(),

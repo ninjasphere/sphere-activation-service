@@ -1,4 +1,7 @@
 {
+  "amqp": {
+    "url": "amqp://guest:guest@rabbit:5672"
+  },
   "redis": {
     "url": "tcp://redis:6379/"
   },
