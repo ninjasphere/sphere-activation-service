@@ -35,3 +35,4 @@ CREATE TABLE IF NOT EXISTS `sites` (
 -- alter table users add column `sphere_network_key` varchar(64);
 -- UPDATE TABLE `users` SET `sphere_network_key` = substring(MD5(RAND()), -24);
 -- alter table users change column `sphere_network_key` `sphere_network_key` varchar(64) NOT NULL;
+-- alter table sites change column `master_node_id` `master_node_id` varchar(64) NULL DEFAULT NULL;
