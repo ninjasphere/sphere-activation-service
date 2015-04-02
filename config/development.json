@@ -21,5 +21,16 @@
       "sign": true,
       "secret": "secret123"
     }
+  },
+  "activationClient": {
+    "server": {
+      "hostname": "localhost",
+      "port": 5100
+    },
+    "signing": {
+      "sign": true,
+      "secret": "secret123"
+    }
   }
+
 }
